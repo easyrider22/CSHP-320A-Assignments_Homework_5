@@ -47,7 +47,7 @@ namespace CSHP_320A_Assignments_Homework_5
         }
         private void UxExit_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show(this, "Are you sure to exit the game?", "Exit", MessageBoxButton.YesNo);
+            MessageBoxResult result = MessageBox.Show(this, "Sure you want to exit the game?", "Exit", MessageBoxButton.YesNo);
             if (result == MessageBoxResult.Yes)
             {
                 System.Windows.Application.Current.Shutdown();
